@@ -8,7 +8,7 @@ from PyQt5.QtWidgets import QMainWindow, QTableView, QApplication
 class MyWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('coffee_UI.ui', self)
+        uic.loadUi('main.ui', self)
         self.initUI()
 
     def initUI(self):
